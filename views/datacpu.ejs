@@ -1,0 +1,25 @@
+
+<%- include('partial/head.ejs') %>
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>Speed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% dataCPU.forEach(data => { %> 
+            <tr>
+                <td><%= data.model %></td>
+                <td>
+                    <span class="badge badge-<%= data.speed <= 300 ? 'danger' : 'success' %>">
+                        <%= data.speed <= 300 ? 'Prosesor dibawah rata-rata' : 'Prosesor cukup' %>
+                    </span>
+                </td>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</div>
+<%- include('partial/footer.ejs') %>

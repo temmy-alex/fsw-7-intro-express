@@ -1,0 +1,18 @@
+<%- include('partial/head.ejs') %>
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Times</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% dataCPU.forEach(data => { %> 
+            <tr>
+                <td><%= data.times %></td>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</div>
+<%- include('partial/footer.ejs') %>

@@ -1,0 +1,48 @@
+{
+"dataCPU": [
+     {
+      "model": "Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz",
+      "speed": 1000,
+      "times": {
+       "user": 348031,
+       "nice": 0,
+       "sys": 209937,
+       "idle": 4079890,
+       "irq": 29375
+      }
+     },
+     {
+      "model": "Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz",
+      "speed": 500,
+      "times": {
+       "user": 878859,
+       "nice": 0,
+       "sys": 152093,
+       "idle": 3606640,
+       "irq": 3375
+      }
+     },
+     {
+      "model": "Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz",
+      "speed": 300,
+      "times": {
+       "user": 426984,
+       "nice": 0,
+       "sys": 197890,
+       "idle": 4012718,
+       "irq": 3859
+      }
+     },
+     {
+      "model": "Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz",
+      "speed": 1896,
+      "times": {
+       "user": 308921,
+       "nice": 0,
+       "sys": 154234,
+       "idle": 4174437,
+       "irq": 3312
+      }
+     }
+    ]
+   }

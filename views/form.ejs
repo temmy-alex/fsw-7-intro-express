@@ -1,0 +1,19 @@
+<%- include('partial/head.ejs') %>
+<% if(notif == 'success') { %>
+    <%- include('partial/message') %>
+<% } %>
+<h1 class="text-center">Input Biodata</h1>
+<div class="container">
+    <form action="/form" method="POST">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" class="form-control" type="text" name="name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" class="form-control" type="text" name="email">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<%- include('partial/footer.ejs') %>

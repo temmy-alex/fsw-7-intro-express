@@ -1,0 +1,23 @@
+<%- include('partial/head.ejs') %>
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>User</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% dataCPU.forEach(data1) => { %> 
+            <tr>
+                <td>
+                    <span class="badge badge-<%= data.times.user <= 310000 ? 'danger' : 'success' %>">
+                        <%= data.times.user <= 310000 ? 'Prosesor dibawah rata-rata' : 'Prosesor cukup' %>
+                    </span>
+                </td>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</div>
+
+<%- include('partial/footer.ejs') %>
